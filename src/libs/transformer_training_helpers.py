@@ -2,7 +2,7 @@ import torch
 import numpy as np
 import torch.nn as nn
 from torch.autograd import Variable
-from music_transformer import subsequent_mask
+from MusGen.src.libs.music_transformer import subsequent_mask
 
 class NoamOpt:
     "Optim wrapper that implements rate."
