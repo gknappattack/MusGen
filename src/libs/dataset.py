@@ -2,7 +2,7 @@ from torch.utils.data import Dataset, DataLoader
 import os
 import numpy as np
 import time
-from music_transformer import subsequent_mask
+from MusGen.src.libs.music_transformer import subsequent_mask
 from torch.autograd import Variable
 
 # musicautobot
